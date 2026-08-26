@@ -1,0 +1,25 @@
+# Never commit game assets or the mod's own English text
+*.dat
+*.DAT
+*.orig
+*.frm
+*.FRM
+*.exe
+*.dll
+*.pdf
+english_source_snapshot/
+_backup_english_original/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Built release archives
+/release/
+*.zip
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
