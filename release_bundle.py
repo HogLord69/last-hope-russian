@@ -30,7 +30,7 @@ SKIP_FILES = ["*.orig", "*.dmp", "sfall-log*.txt", "*.log"]
 SKIP_DIRS = ["uninstall", "_backup_english_original", "_localization_ru"]
 
 LAUNCHER = """@echo off
-rem Last Hope v1.088 -- Russian. Must run from its own folder.
+rem Olympus 2207 -- English. Must run from its own folder.
 cd /d "%~dp0"
 start "" "{exe}"
 """

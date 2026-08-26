@@ -5,7 +5,12 @@
 
 Скачайте, распакуйте, запустите. Ничего устанавливать не нужно.
 
-Готовая сборка — во вкладке **[Releases](../../releases)**.
+Готовая сборка — во вкладке **[Releases](../../releases)**. Это полная
+играбельная сборка: в неё входит сам мод и файлы данных Fallout 2, которые
+ему нужны для запуска. Отдельно ставить Fallout 2 не требуется.
+
+**Этот репозиторий** — другое дело: в нём только русский текст и инструменты
+сборки. Ни самого мода, ни его английского текста здесь нет.
 
 **57 358 из 57 638 строк переведено — 99%.** Оставшиеся 280 оставлены
 по-английски намеренно: имена скриптов движка, названия API DirectX,
@@ -75,9 +80,14 @@ developer placeholders, and the mod author's signature line.
 Verified with the project's own tools — no lost string ids, no CP1251 encoding
 failures, every character covered by the game's fonts.
 
-This repository ships **the Russian text and the tooling only**. Last Hope
-itself is not included, and neither is its English source text: the build
-scripts read that from your own copy.
+**This repository** ships the Russian text and the tooling only. Last Hope
+itself is not here, and neither is its English source text — the build scripts
+read that from your own copy.
+
+**The release archive is a different thing.** It is a complete playable build:
+the mod plus the Fallout 2 data files it needs to run, so nothing else has to
+be installed. Last Hope on its own ships without those and asks the player to
+copy them in; the archive saves that step.
 
 Ready-to-play archive in [Releases](../../releases). Credits in
 [CREDITS.md](CREDITS.md).
